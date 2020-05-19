@@ -2,9 +2,6 @@ import React from 'react'
 
 
 class WeatherCard extends React.Component {
-  constructor(props) {
-    super(props)
-  } 
   render() {
     return (
         <div className="card weather-card mx-auto" style={{textAlign: "left"}}>

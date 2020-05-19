@@ -41,7 +41,7 @@ class WeatherSearch extends React.Component{
     return (
       <div className="search-form">
         <form onSubmit={this.onSubmit}>
-          <input type="text" className=".form-control search-input" name="" onChange={this.onChange}></input>
+          <input type="text" placeholder="Insert city name" className=".form-control search-input" name="" onChange={this.onChange}></input>
           <button type="submit" className="btn btn-primary">Search</button>
           {this.state.searchError ? <p className="error">Location not found please try again</p> : null}
         </form>
